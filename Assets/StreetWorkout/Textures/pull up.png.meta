@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 3aaee6efbcf8bd6479e39a556d3cb711
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pull up_0
+    21300002: pull up_1
+    21300004: pull up_2
+    21300006: pull up_3
+    21300008: pull up_4
+    21300010: pull up_5
+    21300012: pull up_6
+    21300014: pull up_7
+    21300016: pull up_8
+    21300018: pull up_9
+    21300020: pull up_10
+    21300022: pull up_11
+    21300024: pull up_12
+    21300026: pull up_13
+    21300028: pull up_14
+    21300030: pull up_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pull up_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 57
+        width: 372
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 57
+        width: 524
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_2
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 57
+        width: 609
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_3
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 57
+        width: 552
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_4
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 57
+        width: 517
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_5
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 57
+        width: 543
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_6
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 57
+        width: 494
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_7
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 57
+        width: 402
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_8
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 151
+        width: 402
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_9
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 270
+        width: 400
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_10
+      rect:
+        serializedVersion: 2
+        x: 5878
+        y: 348
+        width: 495
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_11
+      rect:
+        serializedVersion: 2
+        x: 6465
+        y: 438
+        width: 543
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_12
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 482
+        width: 520
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_13
+      rect:
+        serializedVersion: 2
+        x: 7712
+        y: 438
+        width: 543
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_14
+      rect:
+        serializedVersion: 2
+        x: 8347
+        y: 348
+        width: 494
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pull up_15
+      rect:
+        serializedVersion: 2
+        x: 8934
+        y: 269
+        width: 401
+        height: 853
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
