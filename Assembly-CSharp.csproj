@@ -54,11 +54,13 @@
      <Compile Include="Assets\StreetWorkout\Scripts\SoundController.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\SpalshScreen.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\UIController.cs" />
+     <Compile Include="Assets\StreetWorkout\Scripts\UIControllerMain.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\changeRandomBGSOUND.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\gameButtons.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\logoTween.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\playerAnimation.cs" />
      <Compile Include="Assets\StreetWorkout\Scripts\playerController.cs" />
+     <Compile Include="Assets\StreetWorkout\Scripts\properties.cs" />
      <None Include="Assets\StreetWorkout\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>

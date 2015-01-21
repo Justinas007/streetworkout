@@ -4,7 +4,10 @@ using System.Collections;
 public class playerAnimation : MonoBehaviour {
 
     private SpriteRenderer sr;
-    public Sprite sprite1, sprite2, sprite3, sprite4, sprite5, sprite6, sprite7, sprite8, sprite9, keeper;
+    public Sprite pullupstill, pullup1, pullup2, pullup3, pullup4, clappingpullstill, clappingpull1, clappingpull2,
+        clappingpull3, clappingpull4, muscleupstill, muscleup1, muscleup2, muscleup3, muscleup4, pulloverstill,
+        pullover1, pullover2, pullover3, pullover4, straightbarstill, straightbar1, straightbar2, straightbar3,
+        straightbar4, keeper;
 
 	// Use this for initialization
 	void Start () {
@@ -14,30 +17,124 @@ public class playerAnimation : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up);
-        if (hit.collider != null)
+
+        switch (Application.loadedLevelName)
         {
-            Debug.Log(hit.transform.gameObject.name);
-            double disY = transform.position.y - hit.transform.position.y;
-
-
-            if (disY < 5.8)
-                keeper = sprite1;
-            if (disY > 6)
-            {
-                keeper = sprite2;
-                if (disY > 7.1)
+            case "PullUps":
+                if (hit.collider != null)
                 {
-                    keeper = sprite4;
-                    if (disY > 7.3)
+                    double disY = transform.position.y - hit.transform.position.y;
+                    if (disY < 3)
+                        keeper = pullupstill;
+                    if (disY > 3.15)
                     {
-                        keeper = sprite5;
+                        keeper = pullup1;
+                        if (disY > 3.25)
+                        {
+                            keeper = pullup2;
+                            if (disY > 3.875)
+                            {
+                                keeper = pullup3;
+                            }
+                            if (disY > 4.5)
+                            {
+                                keeper = pullup4;
+                            }
+                        }
                     }
+                    sr.sprite = keeper;
                 }
-            }
-            sr.sprite = keeper;
+                break;
+            case "ClappingPullUps":
+                if (hit.collider != null)
+                {
+                    double disY = transform.position.y - hit.transform.position.y;
+                    if (disY < 3)
+                        keeper = pullupstill;
+                    if (disY > 3.15)
+                    {
+                        keeper = pullup1;
+                        if (disY > 3.25)
+                        {
+                            keeper = pullup2;
+                            if (disY > 3.875)
+                            {
+                                keeper = pullup3;
+                            }
+                            if (disY > 4.5)
+                            {
+                                keeper = pullup4;
+                            }
+                        }
+                    }
+                    sr.sprite = keeper;
+                }
+                break;
+            case "MuscleUps":
+                if (hit.collider != null)
+                {
+                    double disY = transform.position.y - hit.transform.position.y;
+                    Debug.Log(disY);
+                    if (disY < 3.75)
+                        keeper = muscleupstill;
+                    if (disY > 4.6)
+                    {
+                        keeper = muscleup1;
+                        if (disY > 4.8)
+                        {
+                            keeper = muscleup2;
+                            if (disY > 5)
+                            {
+                                keeper = muscleup3;
+                            }
+                        }
+                    }
+                    sr.sprite = keeper;
+                }
+                break;
+            case "PullOvers":
+                if (hit.collider != null)
+                {
+                    double disY = transform.position.y - hit.transform.position.y;
+                    Debug.Log(disY);
+                    if (disY < 3.75)
+                        keeper = pulloverstill;
+                    if (disY > 3.75)
+                    {
+                        keeper = pullover1;
+                        if (disY > 4.5)
+                        {
+                            keeper = pullover2;
+                            if (disY > 4.9)
+                            {
+                                keeper = pullover3;
+                            }
+                            if (disY > 5.5)
+                            {
+                                keeper = pullover4;
+                            }
+                        }
+                    }
+                    sr.sprite = keeper;
+                }
+                break;
+            case "StraightBarDibs":
+                if (hit.collider != null)
+                {      
+                    double disY = transform.position.y - hit.transform.position.y;
+                    if (disY > 2.5)
+                        keeper = straightbar2;
+                    if (disY > 2.8)
+                    {
+                        keeper = straightbar1;
+                        if (disY > 3.35)
+                        {
+                            keeper = straightbarstill;
+                        }
+                    }
+                    sr.sprite = keeper;
+                }
+                break;
         }
-        else
-            Debug.Log("no raycast");
-	
 	}
 }
